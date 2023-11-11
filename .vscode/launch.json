@@ -12,6 +12,15 @@
             "cwd": "${workspaceFolder}",
             "console": "newExternalWindow",
             "preLaunchTask": "CMake: build"
-        }   
+        },
+        {
+            "name": "Launch(Linux)",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/bin/sandbox.exe",
+            "cwd": "${workspaceFolder}",
+            "externalConsole": true,
+            "preLaunchTask": "CMake: build"
+        }  
     ]
 }
